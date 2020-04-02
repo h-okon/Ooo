@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class swiftPotiononCollision : MonoBehaviour
+public class deadlyBlock : MonoBehaviour
 {
-    // Start is called before the first frame update
     Collider2D m_ObjectCollider;
 
     void Start()
@@ -21,8 +21,6 @@ public class swiftPotiononCollision : MonoBehaviour
     {
         //GameObject's Collider is now a trigger Collider when the GameObject is clicked. It now acts as a trigger
         m_ObjectCollider.isTrigger = true;
-        //Output to console the GameObject’s trigger state
-        kulkaMovement.setSpeed(50);
-        Destroy(m_ObjectCollider.gameObject);
+        Application.LoadLevel(Application.loadedLevel);
     }
 }

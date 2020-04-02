@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class kulkaMovement : MonoBehaviour
 {
-    private int frameCounter;
     private Vector3 mousePosition;
     private Rigidbody2D rb;
     private Vector2 direction;
@@ -12,7 +11,6 @@ public class kulkaMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        frameCounter = 0;
         rb = GetComponent<Rigidbody2D>();
     }
     public static void setSpeed(int speed)
@@ -23,7 +21,6 @@ public class kulkaMovement : MonoBehaviour
     }
     private void setRotation(Vector2 p1)
     {
-            frameCounter = 0;
             float deg = Mathf.Rad2Deg * Mathf.Atan(p1.y / p1.x);
 
             if (p1.x > 0 && p1.y > 0)      
