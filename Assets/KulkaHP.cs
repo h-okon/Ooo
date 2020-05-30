@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KulkaHP : MonoBehaviour
 {
-    public int maxHealth = 4;
+    public int maxHealth = 10;
     public int currentHealth;
     public HealthBar healthBar;
     // Start is called before the first frame update
@@ -22,7 +22,7 @@ public class KulkaHP : MonoBehaviour
             TakeDamage(1);
         }
     }
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
