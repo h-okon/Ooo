@@ -17,6 +17,7 @@ public class KulkaHP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /* only for debug purposes - when space is pressed */
        if(Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(1);
