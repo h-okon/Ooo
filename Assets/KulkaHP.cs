@@ -25,11 +25,11 @@ public class KulkaHP : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
+        currentHealth -= damage; 
+        healthBar.SetHealth(currentHealth); // set on healthBar
         if(currentHealth <= 0) // respawn the player
         {
-            Application.LoadLevel(Application.loadedLevel);
+            Application.LoadLevel(Application.loadedLevel); // restart level (reload)
         }
     }
 }
