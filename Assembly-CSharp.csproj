@@ -67,6 +67,7 @@
     <Compile Include="Assets\HealthBar.cs" />
     <Compile Include="Assets\KulkaHP.cs" />
     <Compile Include="Assets\kulkaMovement.cs" />
+    <Compile Include="Assets\MenuAssets\buttonsOnMouseOver.cs" />
     <Compile Include="Assets\MenuAssets\MainMenu.cs" />
     <Compile Include="Assets\swiftPotiononCollision.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
