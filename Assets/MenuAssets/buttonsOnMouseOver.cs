@@ -9,12 +9,13 @@ public class buttonsOnMouseOver : MonoBehaviour
 {
     public void changeTextSizeUP()
     {
-        TextMeshProUGUI txt= GetComponentInChildren<TextMeshProUGUI>();
-        txt.characterSpacing = 20;
+        TextMeshProUGUI txt = GetComponentInChildren<TextMeshProUGUI>();
+        txt.characterSpacing = 10;
     }
     public void changeTextSizeDOWN()
     {
+
         TextMeshProUGUI txt = GetComponentInChildren<TextMeshProUGUI>();
-        txt.characterSpacing = 1;
+        txt.characterSpacing = 0;
     }
 }
