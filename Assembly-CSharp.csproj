@@ -632,6 +632,9 @@
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Ooo/nowe-REPO/Ooo/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+ <HintPath>C:/Ooo/nowe-REPO/Ooo/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Ooo/nowe-REPO/Ooo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -659,6 +662,9 @@
  <Reference Include="Unity.2D.Tilemap.Editor">
  <HintPath>C:/Ooo/nowe-REPO/Ooo/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Tilemap.Extras">
+ <HintPath>C:/Ooo/nowe-REPO/Ooo/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>C:/Ooo/nowe-REPO/Ooo/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
@@ -679,12 +685,6 @@
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
  <HintPath>C:/Ooo/nowe-REPO/Ooo/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Extras.Editor">
- <HintPath>C:/Ooo/nowe-REPO/Ooo/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Extras">
- <HintPath>C:/Ooo/nowe-REPO/Ooo/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
