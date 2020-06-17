@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KulkaHP : MonoBehaviour
 {
-    public int maxHealth = 10;
+    public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
     // Start is called before the first frame update
@@ -18,10 +18,10 @@ public class KulkaHP : MonoBehaviour
     void Update()
     {
         /* only for debug purposes - when space is pressed */
-       if(Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(1);
-        }
+       //if(Input.GetKeyDown(KeyCode.Space))
+       // {
+       //     TakeDamage(1);
+       // }
     }
     public void TakeDamage(int damage)
     {
