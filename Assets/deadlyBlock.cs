@@ -22,7 +22,7 @@ public class deadlyBlock : MonoBehaviour
     {
         //GameObject's Collider is now a trigger Collider when the GameObject is clicked. It now acts as a trigger
         m_ObjectCollider.isTrigger = true;
-        Kulkahealth.TakeDamage(1);
+        Kulkahealth.TakeDamage(100);
         m_ObjectCollider.isTrigger = false;
     }
 }
