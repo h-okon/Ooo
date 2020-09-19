@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class deadlyBlock : MonoBehaviour
 {
     Collider2D m_ObjectCollider;
-
+    KulkaHP Kulkahealth;
     void Start()
     {
         //Fetch the GameObject's Collider (make sure they have a Collider component)
@@ -15,12 +15,14 @@ public class deadlyBlock : MonoBehaviour
         m_ObjectCollider.isTrigger = false;
         //Output whether the Collider is a trigger type Collider or not
         Debug.Log("Trigger On : " + m_ObjectCollider.isTrigger);
+        Kulkahealth = GameObject.FindGameObjectWithTag("kulka").GetComponent<KulkaHP>();
     }
 
     void OnCollisionEnter2D()
     {
         //GameObject's Collider is now a trigger Collider when the GameObject is clicked. It now acts as a trigger
         m_ObjectCollider.isTrigger = true;
-        Application.LoadLevel(Application.loadedLevel);
+        Kulkahealth.TakeDamage(100);
+        m_ObjectCollider.isTrigger = false;
     }
 }
